@@ -1,0 +1,480 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		09FD68E0BCB143558577B536 /* libPods-PHYTableViewCell-Example-PHYTableViewCell.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A8658E79A6A4498A55BBBAF /* libPods-PHYTableViewCell-Example-PHYTableViewCell.a */; };
+		39F82E9097A74D5CB6B9ED07 /* PHYTableViewHeaderFooterView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6745DD93E4E1466FB59E807D /* PHYTableViewHeaderFooterView.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		56CA02C712BF4AE2BCF94FFC /* PHYTableViewHeaderFooterView.h in Headers */ = {isa = PBXBuildFile; fileRef = B20581E5624E44EDAFD4E3FB /* PHYTableViewHeaderFooterView.h */; };
+		8B580C01411C4DEA8658FEC3 /* Pods-PHYTableViewCell-Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BA11CC5665946F7A195501D /* Pods-PHYTableViewCell-Example-dummy.m */; };
+		AA46F6A73272416EA6322943 /* PHYTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F66373B8DA24A7290345788 /* PHYTableViewCell.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		C4FBC2DD15934DA3B979742F /* PHYTableViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = AB76536084854F4DA5BE7745 /* PHYTableViewCell.h */; };
+		F6723A144DEF46D08C29814A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26D230B71CD54C9AB408B876 /* Foundation.framework */; };
+		F700D8B96D464548B67C3724 /* Pods-PHYTableViewCell-Example-PHYTableViewCell-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EF0D67F2311B41019FDDE758 /* Pods-PHYTableViewCell-Example-PHYTableViewCell-dummy.m */; };
+		F7BFBEBF8D214D16AC1BCE47 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26D230B71CD54C9AB408B876 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FB18966F60A44CF089EEE511 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EC1B38CDC1C4498B8F472B34 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E855F146F1E84312914C3E12;
+			remoteInfo = "Pods-PHYTableViewCell-Example-PHYTableViewCell";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		049D5949C1E6424992C69EB4 /* Pods-PHYTableViewCell-Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PHYTableViewCell-Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		12563E82F505443695996478 /* Pods-PHYTableViewCell-Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PHYTableViewCell-Example-resources.sh"; sourceTree = "<group>"; };
+		26D230B71CD54C9AB408B876 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		3A63C5310F114EEDA1B0F2F6 /* Pods-PHYTableViewCell-Example-PHYTableViewCell-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PHYTableViewCell-Example-PHYTableViewCell-Private.xcconfig"; sourceTree = "<group>"; };
+		59386BB0B6A849038BBEAC54 /* Pods-PHYTableViewCell-Example-PHYTableViewCell.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PHYTableViewCell-Example-PHYTableViewCell.xcconfig"; sourceTree = "<group>"; };
+		5BA11CC5665946F7A195501D /* Pods-PHYTableViewCell-Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PHYTableViewCell-Example-dummy.m"; sourceTree = "<group>"; };
+		5F66373B8DA24A7290345788 /* PHYTableViewCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PHYTableViewCell.m; path = PHYTableViewCell/PHYTableViewCell.m; sourceTree = "<group>"; };
+		6745DD93E4E1466FB59E807D /* PHYTableViewHeaderFooterView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PHYTableViewHeaderFooterView.m; path = PHYTableViewCell/PHYTableViewHeaderFooterView.m; sourceTree = "<group>"; };
+		7A8658E79A6A4498A55BBBAF /* libPods-PHYTableViewCell-Example-PHYTableViewCell.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PHYTableViewCell-Example-PHYTableViewCell.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F6037ACEC914852AC7FCEC1 /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		8300E9A5A2D44598A0DE2568 /* Pods-PHYTableViewCell-Example-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PHYTableViewCell-Example-environment.h"; sourceTree = "<group>"; };
+		AB76536084854F4DA5BE7745 /* PHYTableViewCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PHYTableViewCell.h; path = PHYTableViewCell/PHYTableViewCell.h; sourceTree = "<group>"; };
+		B20581E5624E44EDAFD4E3FB /* PHYTableViewHeaderFooterView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PHYTableViewHeaderFooterView.h; path = PHYTableViewCell/PHYTableViewHeaderFooterView.h; sourceTree = "<group>"; };
+		B7D13FB97D8448EB838AFB34 /* Pods-PHYTableViewCell-Example-PHYTableViewCell-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PHYTableViewCell-Example-PHYTableViewCell-prefix.pch"; sourceTree = "<group>"; };
+		E02F8BC3A6C446D482A746C9 /* Pods-PHYTableViewCell-Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PHYTableViewCell-Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		E391DC23BB104285B483A592 /* libPods-PHYTableViewCell-Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PHYTableViewCell-Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E9A4BA5E86234786B8EA0CB8 /* Pods-PHYTableViewCell-Example.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PHYTableViewCell-Example.xcconfig"; sourceTree = "<group>"; };
+		EF0D67F2311B41019FDDE758 /* Pods-PHYTableViewCell-Example-PHYTableViewCell-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PHYTableViewCell-Example-PHYTableViewCell-dummy.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2AD7D8C62D154B029D9E48C3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6723A144DEF46D08C29814A /* Foundation.framework in Frameworks */,
+				09FD68E0BCB143558577B536 /* libPods-PHYTableViewCell-Example-PHYTableViewCell.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD296425788C42069F3561D5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7BFBEBF8D214D16AC1BCE47 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		429D355D9D1845F583D52CBA /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				59386BB0B6A849038BBEAC54 /* Pods-PHYTableViewCell-Example-PHYTableViewCell.xcconfig */,
+				3A63C5310F114EEDA1B0F2F6 /* Pods-PHYTableViewCell-Example-PHYTableViewCell-Private.xcconfig */,
+				EF0D67F2311B41019FDDE758 /* Pods-PHYTableViewCell-Example-PHYTableViewCell-dummy.m */,
+				B7D13FB97D8448EB838AFB34 /* Pods-PHYTableViewCell-Example-PHYTableViewCell-prefix.pch */,
+			);
+			name = "Support Files";
+			sourceTree = SOURCE_ROOT;
+		};
+		4317DFECC39D4F0AA42A9539 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E391DC23BB104285B483A592 /* libPods-PHYTableViewCell-Example.a */,
+				7A8658E79A6A4498A55BBBAF /* libPods-PHYTableViewCell-Example-PHYTableViewCell.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		48A895B951CE4E4C94B95B25 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4C3A97ECB4144332A73910C0 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4C3A97ECB4144332A73910C0 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				26D230B71CD54C9AB408B876 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		66B4EEEF9E4840D19EB0EE28 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D03FFC515EB04E8297AF7B20 /* PHYTableViewCell */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		85C95E8AE686451EBFD70E88 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				955EB3DE139644DEB1123C5E /* Pods-PHYTableViewCell-Example */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		955EB3DE139644DEB1123C5E /* Pods-PHYTableViewCell-Example */ = {
+			isa = PBXGroup;
+			children = (
+				E9A4BA5E86234786B8EA0CB8 /* Pods-PHYTableViewCell-Example.xcconfig */,
+				049D5949C1E6424992C69EB4 /* Pods-PHYTableViewCell-Example-acknowledgements.markdown */,
+				E02F8BC3A6C446D482A746C9 /* Pods-PHYTableViewCell-Example-acknowledgements.plist */,
+				5BA11CC5665946F7A195501D /* Pods-PHYTableViewCell-Example-dummy.m */,
+				8300E9A5A2D44598A0DE2568 /* Pods-PHYTableViewCell-Example-environment.h */,
+				12563E82F505443695996478 /* Pods-PHYTableViewCell-Example-resources.sh */,
+			);
+			name = "Pods-PHYTableViewCell-Example";
+			sourceTree = "<group>";
+		};
+		B2F32834892A46FBAB0AF8C0 = {
+			isa = PBXGroup;
+			children = (
+				7F6037ACEC914852AC7FCEC1 /* Podfile */,
+				66B4EEEF9E4840D19EB0EE28 /* Development Pods */,
+				48A895B951CE4E4C94B95B25 /* Frameworks */,
+				4317DFECC39D4F0AA42A9539 /* Products */,
+				85C95E8AE686451EBFD70E88 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D03FFC515EB04E8297AF7B20 /* PHYTableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				AB76536084854F4DA5BE7745 /* PHYTableViewCell.h */,
+				5F66373B8DA24A7290345788 /* PHYTableViewCell.m */,
+				B20581E5624E44EDAFD4E3FB /* PHYTableViewHeaderFooterView.h */,
+				6745DD93E4E1466FB59E807D /* PHYTableViewHeaderFooterView.m */,
+				429D355D9D1845F583D52CBA /* Support Files */,
+			);
+			name = PHYTableViewCell;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		A1FF3C04C6A74C32812319A7 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4FBC2DD15934DA3B979742F /* PHYTableViewCell.h in Headers */,
+				56CA02C712BF4AE2BCF94FFC /* PHYTableViewHeaderFooterView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		E855F146F1E84312914C3E12 /* Pods-PHYTableViewCell-Example-PHYTableViewCell */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C000FB0C4CED4059857A4CE3 /* Build configuration list for PBXNativeTarget "Pods-PHYTableViewCell-Example-PHYTableViewCell" */;
+			buildPhases = (
+				F19113C1B1EE44D09ACEFB2B /* Sources */,
+				AD296425788C42069F3561D5 /* Frameworks */,
+				A1FF3C04C6A74C32812319A7 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-PHYTableViewCell-Example-PHYTableViewCell";
+			productName = "Pods-PHYTableViewCell-Example-PHYTableViewCell";
+			productReference = 7A8658E79A6A4498A55BBBAF /* libPods-PHYTableViewCell-Example-PHYTableViewCell.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		ED097F2878E3460BA8ABE338 /* Pods-PHYTableViewCell-Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 45F09601973A4E27B12B133D /* Build configuration list for PBXNativeTarget "Pods-PHYTableViewCell-Example" */;
+			buildPhases = (
+				E266FA71E0ED49BA8B74F149 /* Sources */,
+				2AD7D8C62D154B029D9E48C3 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				764BF9F82C78445B86F29ADF /* PBXTargetDependency */,
+			);
+			name = "Pods-PHYTableViewCell-Example";
+			productName = "Pods-PHYTableViewCell-Example";
+			productReference = E391DC23BB104285B483A592 /* libPods-PHYTableViewCell-Example.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EC1B38CDC1C4498B8F472B34 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+			};
+			buildConfigurationList = 1022A390B6254E7B9490B5DF /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = B2F32834892A46FBAB0AF8C0;
+			productRefGroup = 4317DFECC39D4F0AA42A9539 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ED097F2878E3460BA8ABE338 /* Pods-PHYTableViewCell-Example */,
+				E855F146F1E84312914C3E12 /* Pods-PHYTableViewCell-Example-PHYTableViewCell */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E266FA71E0ED49BA8B74F149 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B580C01411C4DEA8658FEC3 /* Pods-PHYTableViewCell-Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F19113C1B1EE44D09ACEFB2B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA46F6A73272416EA6322943 /* PHYTableViewCell.m in Sources */,
+				39F82E9097A74D5CB6B9ED07 /* PHYTableViewHeaderFooterView.m in Sources */,
+				F700D8B96D464548B67C3724 /* Pods-PHYTableViewCell-Example-PHYTableViewCell-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		764BF9F82C78445B86F29ADF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E855F146F1E84312914C3E12 /* Pods-PHYTableViewCell-Example-PHYTableViewCell */;
+			targetProxy = FB18966F60A44CF089EEE511 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		398D0C9EA40E4C7682555669 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3A63C5310F114EEDA1B0F2F6 /* Pods-PHYTableViewCell-Example-PHYTableViewCell-Private.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DSTROOT = /tmp/xcodeproj.dst;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Pods-PHYTableViewCell-Example-PHYTableViewCell-prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INSTALL_PATH = "$(BUILT_PRODUCTS_DIR)";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				OTHER_CFLAGS = (
+					"-DNS_BLOCK_ASSERTIONS=1",
+					"$(inherited)",
+				);
+				OTHER_CPLUSPLUSFLAGS = (
+					"-DNS_BLOCK_ASSERTIONS=1",
+					"$(inherited)",
+				);
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5E265379DAA84DE7905835C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3A63C5310F114EEDA1B0F2F6 /* Pods-PHYTableViewCell-Example-PHYTableViewCell-Private.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				DSTROOT = /tmp/xcodeproj.dst;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Pods-PHYTableViewCell-Example-PHYTableViewCell-prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INSTALL_PATH = "$(BUILT_PRODUCTS_DIR)";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		8632AD2BAB744A3DA544A0C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				STRIP_INSTALLED_PRODUCT = NO;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F4D77DB42D0645E1897C69CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E9A4BA5E86234786B8EA0CB8 /* Pods-PHYTableViewCell-Example.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DSTROOT = /tmp/xcodeproj.dst;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INSTALL_PATH = "$(BUILT_PRODUCTS_DIR)";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				OTHER_CFLAGS = (
+					"-DNS_BLOCK_ASSERTIONS=1",
+					"$(inherited)",
+				);
+				OTHER_CPLUSPLUSFLAGS = (
+					"-DNS_BLOCK_ASSERTIONS=1",
+					"$(inherited)",
+				);
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FBF7B49D941441BD9C11A5E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+			};
+			name = Debug;
+		};
+		FCAC008674094AA69E79516D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E9A4BA5E86234786B8EA0CB8 /* Pods-PHYTableViewCell-Example.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				DSTROOT = /tmp/xcodeproj.dst;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INSTALL_PATH = "$(BUILT_PRODUCTS_DIR)";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1022A390B6254E7B9490B5DF /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FBF7B49D941441BD9C11A5E1 /* Debug */,
+				8632AD2BAB744A3DA544A0C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		45F09601973A4E27B12B133D /* Build configuration list for PBXNativeTarget "Pods-PHYTableViewCell-Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCAC008674094AA69E79516D /* Debug */,
+				F4D77DB42D0645E1897C69CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C000FB0C4CED4059857A4CE3 /* Build configuration list for PBXNativeTarget "Pods-PHYTableViewCell-Example-PHYTableViewCell" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5E265379DAA84DE7905835C4 /* Debug */,
+				398D0C9EA40E4C7682555669 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EC1B38CDC1C4498B8F472B34 /* Project object */;
+}

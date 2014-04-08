@@ -1,0 +1,14 @@
+PODS:
+  - PHYTableViewCell (0.1.0)
+
+DEPENDENCIES:
+  - PHYTableViewCell (from `../`)
+
+EXTERNAL SOURCES:
+  PHYTableViewCell:
+    :path: ../
+
+SPEC CHECKSUMS:
+  PHYTableViewCell: 4e1ed84b3d6c31f3045b9652ba03c80e889b8293
+
+COCOAPODS: 0.31.1
