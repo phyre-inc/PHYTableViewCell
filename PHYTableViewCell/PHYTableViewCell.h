@@ -1,17 +1,31 @@
+// PHYTableViewCell.h
 //
-//  PHTableViewCell.h
-//  Rally
+// Copyright (c) 2014 Phyre Inc.
 //
-//  Created by Matt Ricketson on 10/31/13.
-//  Copyright (c) 2013 Phyre. All rights reserved.
+// Permission is hereby granted, free of charge, to any person obtaining a copy
+// of this software and associated documentation files (the "Software"), to deal
+// in the Software without restriction, including without limitation the rights
+// to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+// copies of the Software, and to permit persons to whom the Software is
+// furnished to do so, subject to the following conditions:
 //
+// The above copyright notice and this permission notice shall be included in
+// all copies or substantial portions of the Software.
+//
+// THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+// IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+// FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+// AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+// LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+// OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+// THE SOFTWARE.
 
 #import <UIKit/UIKit.h>
 
 /**
- `PHTableViewCell` is a `UITableViewCell` subclass with convenience methods for simple registration and usage of custom cells. `PHTableViewCell` decouples the work of managing `UITableViewCell` subclasses from the view controller.
+ `PHYTableViewCell` is a `UITableViewCell` subclass for conveniently loading and registering cells.
  
- To use `PHTableViewCell`, create a custom subclass defined programmatically or with a corresponding nib file.
+ To use `PHYTableViewCell`, create a custom subclass and optionally a corresponding nib file.
  */
 @interface PHYTableViewCell : UITableViewCell
 
@@ -50,20 +64,22 @@
 /**
  The default reuse identifier to use when registering and dequeuing cells.
  
- @discussion By default, this method returns a string corresponding to the name of the class.
+ @discussion
+ By default, this method returns a string corresponding to the name of the class.
  
  @return The default reuse identifier to use when registering and dequeuing cells.
  */
-+ (NSString *)cellIdentifier;
++ (NSString *)defaultReuseIdentifier;
 
 /**
  The name of the nib file to search for when registering a nib-based table view cell.
  
- @discussion By default, this method returns a filename corresponding to the name of the class. Override this method to specify a custom nib file to use. The nib file must contain only one top-level object, which must be of type `PHTableViewCell`.
+ @discussion
+ By default, this method returns a file name corresponding to the name of the class. Override this method to specify a custom nib file to use. The nib file must contain only one top-level object, which must be of type `PHYTableViewCell`.
  
- @return The name of a nib file containing a single top-level object of type `PHTableViewCell`.
+ @return The name of a nib file containing a single top-level object of type `PHYTableViewCell`.
  
- @see +registerWithTableView:
+ @see +supportsLoadingFromNib:
  */
 + (NSString *)nibName;
 
@@ -73,21 +89,27 @@
 ///------------------------
 
 /**
- Determines whether or not to load the receiver from a corresponding nib file during instantiation or registration.
+ Determines whether or not the receiver can be loaded from a corresponding nib file when instantiating or regsitering.
  
- @return YES if a nib file should be used, or no to instantiate the cell programmatically.
+ @discussion
+ This method checks to see if a .xib file indicated by `+nibName` exists.
+ 
+ @return YES if a nib file exists and is valid. NO, if otherwise.
+ 
+ @see +nibName
  */
-+ (BOOL)instantiateFromNib;
++ (BOOL)supportsLoadingFromNib;
 
 /**
  Registers the receiving class for reuse within the table view.
  
  @discussion
- If the cell has a corresponding nib file, then it is registered as a nib-based cell. The registered reuse identifier is the value returned from +cellIdentifier.
+ If the cell has a corresponding nib file, then it is registered as a nib-based cell. The registered reuse identifier is the value returned from +defaultReuseIdentifier.
  
  @param tableView the table view to register with.
  
  @see +registerWithTableView:reuseIdentifer:
+ @see +defaultReuseIdentifier
  */
 + (void)registerWithTableView:(UITableView *)tableView;
 
@@ -101,26 +123,8 @@
  @param reuseIdentifier A custom reuse identifier to register with the cell class.
  
  @see +registerWithTableView:
+ @see +defaultReuseIdentifier
  */
 + (void)registerWithTableView:(UITableView *)tableView reuseIdentifier:(NSString *)reuseIdentifier;
-
-
-///-------------
-/// @name Layout
-///-------------
-
-/**
- Asks the receiving class whether it prefers a size based dynamically on its layout. Useful for calculating dynamic row heights.
- 
- @return YES if receiver prefers constraints-based layout,
- */
-+ (BOOL)prefersConstraintsBasedSize;
-
-/**
- Calculates the compressed size of the cell based on its internal layout.
- 
- @return The size of the cell based on its internal layout.
- */
-- (CGSize)constraintsBasedSizeInTableView:(UITableView *)tableView;
 
 @end
