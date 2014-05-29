@@ -1,5 +1,5 @@
 PODS:
-  - PHYTableViewCell (0.1.0)
+  - PHYTableViewCell (1.0.0)
 
 DEPENDENCIES:
   - PHYTableViewCell (from `../`)
@@ -9,6 +9,6 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  PHYTableViewCell: f51d8d62cca81d74ccbaaba589babd0ad96991a9
+  PHYTableViewCell: 3e872f391401ba8941fb9d8de87ab17bc55948ba
 
 COCOAPODS: 0.33.1
