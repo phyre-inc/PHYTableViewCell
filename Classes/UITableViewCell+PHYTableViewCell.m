@@ -26,7 +26,7 @@
 
 #pragma mark - Layout
 
-- (CGFloat)compressedHeightInTableView:(UITableView *)tableView;
+- (CGFloat)phy_compressedHeightInTableView:(UITableView *)tableView;
 {
 	self.bounds = CGRectMake(0.0f, 0.0f, CGRectGetWidth(tableView.bounds), CGRectGetHeight(self.bounds));
 	[self layoutIfNeeded];

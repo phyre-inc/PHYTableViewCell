@@ -33,6 +33,6 @@
  
  @return The size of the cell based on its internal layout.
  */
-- (CGFloat)compressedHeightInTableView:(UITableView *)tableView;
+- (CGFloat)phy_compressedHeightInTableView:(UITableView *)tableView;
 
 @end
