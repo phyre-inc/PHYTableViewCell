@@ -1,8 +1,8 @@
 //
 //  PHYViewController.m
-//  PHYTableViewCell-Example
+//  PHYTableViewCell
 //
-//  Created by Matt Ricketson on 4/8/14.
+//  Created by Matt Ricketson on 5/29/14.
 //  Copyright (c) 2014 Phyre Inc. All rights reserved.
 //
 

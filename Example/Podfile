@@ -1,6 +1,6 @@
-target "PHYTableViewCell-Example" do
+target "PHYTableViewCell" do
     pod "PHYTableViewCell", :path => "../"
 end
 
-target "PHYTableViewCell-ExampleTests" do
+target "PHYTableViewCellTests" do
 end

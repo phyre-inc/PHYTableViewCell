@@ -9,6 +9,6 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  PHYTableViewCell: 4e1ed84b3d6c31f3045b9652ba03c80e889b8293
+  PHYTableViewCell: f51d8d62cca81d74ccbaaba589babd0ad96991a9
 
-COCOAPODS: 0.31.1
+COCOAPODS: 0.33.1

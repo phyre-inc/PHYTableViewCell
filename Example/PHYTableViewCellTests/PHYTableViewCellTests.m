@@ -1,18 +1,18 @@
 //
-//  PHYTableViewCell_ExampleTests.m
-//  PHYTableViewCell-ExampleTests
+//  PHYTableViewCellTests.m
+//  PHYTableViewCellTests
 //
-//  Created by Matt Ricketson on 4/8/14.
+//  Created by Matt Ricketson on 5/29/14.
 //  Copyright (c) 2014 Phyre Inc. All rights reserved.
 //
 
 #import <XCTest/XCTest.h>
 
-@interface PHYTableViewCell_ExampleTests : XCTestCase
+@interface PHYTableViewCellTests : XCTestCase
 
 @end
 
-@implementation PHYTableViewCell_ExampleTests
+@implementation PHYTableViewCellTests
 
 - (void)setUp
 {
