@@ -24,30 +24,52 @@
 
 @implementation PHYTableViewHeaderFooterView
 
+#pragma mark - Initialization
+
++ (instancetype)headerFooterView
+{
+	if ([self supportsLoadingFromNib]) {
+		return [[[NSBundle mainBundle] loadNibNamed:[self nibName] owner:nil options:nil] firstObject];
+	} else {
+		return [self headerFooterViewWithReuseIdentifier:nil];
+	}
+}
+
++ (instancetype)headerFooterViewWithReuseIdentifier:(NSString *)reuseIdentifier
+{
+	return [[self alloc] initWithReuseIdentifier:reuseIdentifier];
+}
+
+
 #pragma mark - View Characteristics
 
-+ (NSString *)viewIdentifier
++ (NSString *)defaultReuseIdentifier
 {
 	return NSStringFromClass(self);
 }
 
 + (NSString *)nibName
 {
-	return [self viewIdentifier];
+	return [self defaultReuseIdentifier];
 }
 
 
 #pragma mark - View Registration
 
++ (BOOL)supportsLoadingFromNib
+{
+	return ([[NSBundle mainBundle] pathForResource:[self nibName] ofType:@"nib"] != nil);
+}
+
 + (void)registerWithTableView:(UITableView *)tableView
 {
-	[self registerWithTableView:tableView reuseIdentifier:[self viewIdentifier]];
+	[self registerWithTableView:tableView reuseIdentifier:[self defaultReuseIdentifier]];
 }
 
 + (void)registerWithTableView:(UITableView *)tableView reuseIdentifier:(NSString *)reuseIdentifier
 {
-	if([[NSBundle mainBundle] pathForResource:[self nibName] ofType:@"nib"] != nil) {
-		[tableView registerNib:[UINib nibWithNibName:[self nibName] bundle:nil] forHeaderFooterViewReuseIdentifier:reuseIdentifier];
+	if ([self supportsLoadingFromNib]) {
+		[tableView registerNib:[UINib nibWithNibName:[self nibName] bundle:nil] forCellReuseIdentifier:reuseIdentifier];
 	} else {
 		[tableView registerClass:self forHeaderFooterViewReuseIdentifier:reuseIdentifier];
 	}

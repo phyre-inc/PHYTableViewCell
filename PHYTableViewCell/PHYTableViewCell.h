@@ -57,9 +57,9 @@
 + (instancetype)cellWithStyle:(UITableViewCellStyle)style reuseIdentifier:(NSString *)reuseIdentifier;
 
 
-///----------------------------
-/// @name Class Characteristics
-///----------------------------
+///---------------------------
+/// @name Cell Characteristics
+///---------------------------
 
 /**
  The default reuse identifier to use when registering and dequeuing cells.
