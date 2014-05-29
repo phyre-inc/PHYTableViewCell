@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
   s.name             = "PHYTableViewCell"
   s.version          = "1.0.0"
-  s.summary          = "Better UITableViewCell management."
+  s.summary          = "Convenient UITableViewCell and UITableViewHeaderFooterView loading and registration."
   s.homepage         = "http://rallyapp.io"
   s.license          = 'MIT'
   s.author           = { "Matt Ricketson" => "matt@phyreup.com" }
