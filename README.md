@@ -8,6 +8,10 @@ PHYTableViewCell is available through [CocoaPods](http://cocoapods.org), to inst
 it simply add the following line to your Podfile:
 
     pod "PHYTableViewCell"
+    
+## Documentation
+
+[Documentation](http://cocoadocs.org/docsets/PHYTableViewCell) provided via [CocoaDocs](http://cocoadocs.org).
 
 ## Author
 
